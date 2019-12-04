@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 base_os_files:
-   - url: http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/vmlinuz
-     filename: vmlinuz
-     type: kernel
-   - url: http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/initrd.img
-     filename: initrd
-     type: initrd
+  - url: http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/vmlinuz
+    filename: vmlinuz
+    type: kernel
+  - url: http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/initrd.img
+    filename: initrd
+    type: initrd
