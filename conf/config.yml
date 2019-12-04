@@ -1,0 +1,7 @@
+---
+
+# Copyright (C) 2019 Intel Corporation
+# SPDX-License-Identifier: Apache-2
+
+kernel_arguments: kernel http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/vmlinuz console=tty0,115200n8 root=live:http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/squashfs.img ip=dhcp boot_device=sda rootfs_device=sda inst.text inst.repo=http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/ security_profile=standard user_namespace.enable=1
+
