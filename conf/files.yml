@@ -8,8 +8,5 @@ base_os_files:
      filename: vmlinuz
      type: kernel
    - url: http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/initrd.img
-     filename: initrd.img
-     type: initrd
-   - url: http://mirror.starlingx.cengn.ca/mirror/starlingx/master/centos/latest_build/outputs/installer/squashfs.img
-     filename: squasfs.img
+     filename: initrd
      type: initrd
